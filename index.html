@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>車飯樂 To Have Fan</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- loading動畫 -->
+    <link rel="stylesheet" href="./loading.css">
+    <!-- googleIcon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- jsCss -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <!-- meals circular slide -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- loader -->
+    <div id="preLoader"></div>
+
+    <!-- headerArea -->
+    <div id="header">
+        <div class="wrap">
+            <div class="logoBox">
+                <div class="imgBox">
+                    <img src="./logo.png" alt="dinningCar">
+                </div>
+                <p class="logoName ld ld-shake-v">車飯樂<br><span>To Have Fan</span></p>
+            </div>
+            <!-- menu -->
+            <div class="menuBox">
+                <nav class="navBar">
+                    <ul>
+                        <li><a href="#aboutUsArea" class="nav-link"><span>▸</span>關於車飯</a></li>
+                        <li><a href="#newsArea" class="nav-link"><span>▸</span>最新消息</a></li>
+                        <li><a href="#mealsArea" class="nav-link"><span>▸</span>有啥好車</a></li>
+                        <li><a href="#whereToEatArea" class="nav-link"><span>▸</span>去哪裡車</a></li>
+                        <li><a href="" class="nav-link"><span>▸</span>聯絡我們</a></li>
+                    </ul>
+                </nav>
+                <div class="socialMediaBox">
+                    <div class="socialMediaList">
+                        <div class="facebookIcon">
+                            <a href="https://www.google.com/" target="_blank"><img src="./sm/facebook.png"></a>
+                        </div>
+                        <div class="instagramIcon">
+                            <a href="https://www.google.com/" target="_blank"><img src="./sm/instagram.png"></a>
+                        </div>
+                        <div class="lineIcon">
+                            <a href="https://www.google.com/" target="_blank"><img src="./sm/line.png">
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 漢堡選單 -->
+            <!-- 漢堡未點擊 -->
+            <div class="hamburger">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <!-- 漢堡已點擊 -->
+            <div class="toggle">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <!-- 漢堡選單 -->
+
+            <!-- menuEnd -->
+        </div>
+    </div>
+    <!-- headerArea End -->
+
+    <!-- onlineOrder -->
+    <div id="onlineOrder">
+        <a href="onlineOrder.html" target="_blank">
+            <div class="sdBtn">
+                <div class="circle">
+                    <img src="./img/circle.svg" alt="">
+                </div>
+                <p>線上訂餐</p>
+            </div>
+        </a>
+    </div>
+    <!-- onlineOrder End -->
+
+    <!-- 手機快捷選單 -->
+    <div id="MobileQuickLink">
+        <a href="onlineOrder.html" target="_blank">
+            <div class="sdBtn">
+                <p>線上訂餐</p>
+            </div>
+        </a>
+    </div>
+    <!-- 手機快捷選單 -->
+
+    <!-- bannerArea -->
+    <div id="bannerArea">
+        <div class="wrap">
+            <div class="backWords">
+                <div class="marquee-container">
+                    <div class="marquee-content">
+                        LET'S HAVE FAN &nbsp;
+                    </div>
+                    <div class="marquee-content2">
+                        LET'S HAVE FAN &nbsp;
+                    </div>
+                    <div class="marquee-content3">
+                        LET'S HAVE FAN &nbsp;
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="wrap">
+                <button class="clicker">press</button>
+                <div class="circle angled"></div>
+            </div> -->
+            <div class="ImgBox">
+                <img src="./img/banner.JPG">
+            </div>
+            <a class="scrollDown" href="#aboutUsArea">
+                <span>
+                </span>
+                <p>SCROLL DOWN</p>
+            </a>
+        </div>
+    </div>
+    <!-- bannerArea End -->
+
+    <!-- aboutUsArea -->
+    <div id="aboutUsArea">
+        <div class="wrap">
+            <div class="aboutUsBox">
+                <div class="aboutUsImg">
+                    <img src="./img/aboutus.JPG">
+                </div>
+                <div class="aboutUsText">
+                    <p class="subtitle">About HaveFan</p>
+                    <div class="textBox">
+                        <h2 class="title">關於車飯</h2>
+                        <span class="titleDes highlight">吃飯惹 —— 優質公路餐車</span>
+                        <p class="des">
+                            車飯樂黃色小巴載著美味奔馳於台灣各地，我們注重食物的品質，便當皆以嚴選肉品、新鮮時蔬、優質好米所組成，精心製作每一份便當。無論您是忙碌的上班族，還是各種跑祭典的旅人，車飯樂將會提供您美味的用餐選擇。<br><br><span>車飯樂品牌名稱取自於中文諧音「吃飯惹」，還不快來捕捉我們的蹤跡！</span>
+                        </p>
+                        <div class="btnBox">
+                            <a class="btn1" href="">了解更多</a>
+                            <a class="btn1" href="">成為車長</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- aboutUsAreaEnd -->
+
+    <!-- newsArea -->
+    <div id="newsArea">
+        <div class="wrap">
+            <div class="newsBox">
+                <div class="titleBox">
+                    <p class="subtitle">What's New</p>
+                    <h2 class="title">最新消息</h2>
+                    <span class="titleDes highlight">快來看看第一手消息</span>
+                </div>
+                <div class="cardBox">
+                    <div class="cardItem">
+                        <div class="itemImg">
+                            <span class="date">2024.06.01</span>
+                            <div class="imgBox">
+                                <a href="https://www.google.com/" target="_blank"><img src="./img/news01.JPG"></a>
+                            </div>
+                        </div>
+                        <div class="itemName">
+                            <a href="https://www.google.com/">
+                                <p>
+                                    <span class="material-symbols-outlined ld ld-shake-v">emergency_heat</span>
+                                    六月出攤日
+                                </p>
+                                <p>各位粉絲朋友們快來吃！</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cardItem">
+                        <div class="itemImg">
+                            <span class="date">2024.05.20</span>
+                            <div class="imgBox">
+                                <a href="https://www.google.com/" target="_blank"><img src="./img/news04.jpeg"></a>
+                            </div>
+                        </div>
+                        <div class="itemName">
+                            <a href="https://www.google.com/">
+                                <p class="">
+                                    <span class="material-symbols-outlined ld ld-shake-v">emergency_heat</span>
+                                    "520" day
+                                </p>
+                                <p>跟老闆說我愛你折扣 10 元</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cardItem">
+                        <div class="itemImg">
+                            <span class="date">2024.05.18</span>
+                            <div class="imgBox">
+                                <a href="https://www.google.com/" target="_blank"><img src="./img/news05.jpeg"></a>
+                            </div>
+                        </div>
+                        <div class="itemName">
+                            <a href="https://www.google.com/">
+                                <p>
+                                    <span class="material-symbols-outlined ld ld-shake-v">emergency_heat</span>
+                                    2024「赤聲躁動」
+                                </p>
+                                <p>台中烏日啤酒廠攤位資訊</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cardItem">
+                        <div class="itemImg">
+                            <span class="date">2024.05.01</span>
+                            <div class="imgBox">
+                                <a href="https://www.google.com/" target="_blank"><img src="./img/news02.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="itemName">
+                            <a href="https://www.google.com/">
+                                <p>
+                                    <span class="material-symbols-outlined ld ld-shake-v">emergency_heat</span>
+                                    五月出攤日
+                                </p>
+                                <p>各位粉絲朋友們快來吃！</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cardItem">
+                        <div class="itemImg">
+                            <span class="date">2024.04.10</span>
+                            <div class="imgBox">
+                                <a href="https://www.google.com/" target="_blank"><img src="./img/news03.jpeg"></a>
+                            </div>
+                        </div>
+                        <div class="itemName">
+
+                            <a href="https://www.google.com/">
+                                <p>
+                                    <span class="material-symbols-outlined ld ld-shake-v">emergency_heat</span>
+                                    幸福花蓮
+                                </p>
+                                <p>物資及捐款資訊</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cardItem">
+                        <div class="itemImg">
+                            <span class="date">2024.04.01</span>
+                            <div class="imgBox">
+                                <a href="https://www.google.com/" target="_blank"><img src="./img/news06.jpeg"></a>
+                            </div>
+                        </div>
+                        <div class="itemName">
+                            <a href="https://www.google.com/">
+                                <p>
+                                    <span class="material-symbols-outlined ld ld-shake-v">emergency_heat</span>
+                                    2024 台灣祭攤位資訊
+                                </p>
+                                <p>＃至少我們還有音樂</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- arrowBox -->
+                <div class="arrowBox">
+                    <div class="arrow arrowPrev">
+                        <span class="material-symbols-outlined">arrow_circle_down</span>
+                    </div>
+                    <div class="arrow arrowNext">
+                        <span class="material-symbols-outlined">arrow_circle_down</span>
+                    </div>
+                </div>
+                <!-- arrowBox end -->
+            </div>
+        </div>
+    </div>
+    <!-- newsArea End-->
+
+    <!-- mealsArea -->
+    <div id="mealsArea">
+        <div class="decoMealsArea">
+            <img src="./img/chopsticks.png">
+        </div>
+        <div class="wrap">
+            <div class="mealsBox">
+                <div class="textBox">
+                    <div class="titleBox">
+                        <p class="subtitle">Meals</p>
+                        <h2 class="title">有啥好車</h2>
+                        <span class="titleDes highlight">讓每一口都滿足</span>
+                    </div>
+                    <div class="featureBox">
+                        <div class="featureItem">
+                            <span class="material-symbols-outlined">psychiatry</span>
+                            <p>在地時蔬</p>
+                        </div>
+                        <div class="featureItem">
+                            <span class="material-symbols-outlined">kebab_dining</span>
+                            <p>優質肉品</p>
+                        </div>
+                        <div class="featureItem">
+                            <span class="material-symbols-outlined">heart_check</span>
+                            <p>低油低鹽</p>
+                        </div>
+                        <div class="featureItem">
+                            <span class="material-symbols-outlined">cycle</span>
+                            <p>環保包裝</p>
+                        </div>
+                    </div>
+                    <div class="btnBox">
+                        <a class="btn1" href="">查看菜單</a>
+                    </div>
+                </div>
+                <div class="productWrap">
+                    <div class="controls selection-off">
+                        <div class="left selection-off" onclick="turnLeft()"><i class="fas fa-caret-left"></i></div>
+                        <div class="right selection-off" onclick="turnRight()"><i class="fas fa-caret-right"></i></div>
+                    </div>
+                    <div class="productBox">
+                        <div id="center" class="productList">
+                            <div class="productItem">
+                                <div class="item">
+                                    <div class="ImgBox">
+                                        <img src="./img/pro1.jpeg" alt="">
+                                    </div>
+                                    <p>霜降牛肉</p>
+                                </div>
+                            </div>
+                            <div class="productItem">
+                                <div class="item">
+                                    <div class="ImgBox">
+                                        <img src="./img/pro2.jpeg" alt="">
+                                    </div>
+                                    <p>牛肉丸紙</p>
+                                </div>
+                            </div>
+                            <div class="productItem">
+                                <div class="item">
+                                    <div class="ImgBox">
+                                        <img src="./img/pro3.jpeg">
+                                    </div>
+                                    <p>醬燒豬排</p>
+                                </div>
+                            </div>
+                            <div class="productItem">
+                                <div class="item">
+                                    <div class="ImgBox">
+                                        <img src="./img/banner.JPG" alt="">
+                                    </div>
+                                    <p>滿滿火腿</p>
+                                </div>
+                            </div>
+                            <div class="productItem">
+                                <div class="item">
+                                    <div class="ImgBox">
+                                        <img src="./img/pro4.jpeg" alt="">
+                                    </div>
+                                    <p>酥炸魚丸</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="decoBackground"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mealsArea End -->
+
+    <!--whereToEat -->
+    <div id="whereToEatArea">
+        <div class="wrap">
+            <div class="whereToEatBox">
+                <div class="upper">
+                    <div class="titleBox">
+                        <p class="subtitle">Where to eat</p>
+                        <h2 class="title">去哪裡車</h2>
+                        <span class="titleDes highlight">點擊地圖找找出沒地點</span>
+                        <div class="btnBox">
+                            <a class="btn1" href="">位置資訊</a>
+                        </div>
+                    </div>
+                    <div class="TaiwanMapBox">
+                        <div id="TaiwanMapClick"></div>
+                    </div>
+                </div>
+                <!-- 地圖卡片翻轉區 -->
+                <div class="placeList">
+                    <div class="placeBox">
+                        <div id="tw-th-info" class="content">
+                            <div class="card__face card__face--front">
+                                <img class="fImg" src="./img/placeImgF.png" />
+                            </div>
+                            <div class="card__face card__face--back">
+                                <img class="SImg" src="./img/placeImg01.jpeg" />
+                                <div class="placeText">
+                                    <p>▸ 台中 <br> &nbsp; 2024港動噪浪</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tw-cs-info" class="content">
+                            <div class="card__face card__face--front">
+                                <img class="fImg" src="./img/placeImgF.png" />
+                            </div>
+                            <div class="card__face card__face--back">
+                                <img class="SImg" src="./img/placeImg02.jpeg" />
+                                <div class="placeText">
+                                    <p>▸ 嘉義<br> &nbsp; 7月嘉+酒市集</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tw-kh-info" class="content">
+                            <div class="card__face card__face--front">
+                                <img class="fImg" src="./img/placeImgF.png" />
+                            </div>
+                            <div class="card__face card__face--back">
+                                <img class="SImg" src="./img/placeImg03.png" />
+                                <div class="placeText">
+                                    <p>▸ 高雄<br> &nbsp; 2024 大港開唱</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tw-pt-info" class="content">
+                            <div class="card__face card__face--front">
+                                <img class="fImg" src="./img/placeImgF.png" />
+                            </div>
+                            <div class="card__face card__face--back">
+                                <img class="SImg" src="./img/placeImg04.jpeg" />
+                                <div class="placeText">
+                                    <p>▸ 屏東<br> &nbsp; 2024 台灣季</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footerArea">
+        <div class="wrap">
+            <div class="footerBox">
+                <a class="goTop" href="#bannerArea">
+                    <span>
+                        <p>Go Top</p>
+                    </span>
+                </a>
+                <div class="FlogoBox">
+                    <img src="./logo.png">
+                    <p class="logoName">車飯樂<br><span>To Have Fan</span></p>
+                </div>
+                <nav class="FnavBar">
+                    <ul>
+                        <li><a href="#aboutUsArea" class="nav-link"><span>▸</span>關於車飯</a></li>
+                        <li><a href="#newsArea" class="nav-link"><span>▸</span>最新消息</a></li>
+                        <li><a href="#mealsArea" class="nav-link"><span>▸</span>有啥好車</a></li>
+                        <li><a href="#whereToEatArea" class="nav-link"><span>▸</span>去哪裡車</a></li>
+                        <li><a href="" class="nav-link"><span>▸</span>聯絡我們</a></li>
+                    </ul>
+                </nav>
+                <div class="tel">TEL. 0912-345-678</div>
+                <p class="copyright">Copyright © 2024車飯樂 All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- footerEnd-->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <!-- js資料 -->
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/mapdata/countries/tw/tw-all.js"></script>
+    <script>
+        // 台灣地區數據
+        var data = [
+            { 'hc-key': 'tw-pt', value: 0, zhName: '屏東' },
+            { 'hc-key': 'tw-cs', value: 4, zhName: '嘉義市' },
+            { 'hc-key': 'tw-th', value: 5, zhName: '台中' },
+            { 'hc-key': 'tw-kh', value: 16, zhName: '高雄' },
+        ];
+
+        // 創建圖表
+        Highcharts.mapChart('TaiwanMapClick', {
+            chart: {
+                map: 'countries/tw/tw-all',
+            },
+
+            title: {
+                text: '去哪裡車',
+                style: {
+                    display: 'none',
+                }
+            },
+
+            plotOptions: {
+                series: {
+                    events: {
+                        click: function (e) {
+                            var container = document.getElementById('TaiwanMapClick');
+                            // 舊的 info-card 消失
+                            var oldCard = document.querySelector('.info-card');
+                            if (oldCard) {
+                                container.removeChild(oldCard);
+                            }
+                            // 創建新的 info-card
+                            var card = document.createElement('div');
+                            card.className = 'info-card';
+                            var text = '<b>車飯樂將會抵達 </b>' + e.point.zhName;
+                            var text = `車飯樂將會抵達<span>${e.point.zhName}</span>`;
+                            card.innerHTML = text;
+                            container.appendChild(card);
+                        }
+                    }
+                }
+            },
+
+            series: [{
+                data: data,
+                mapData: Highcharts.maps['countries/tw/tw-all'],
+                joinBy: 'hc-key',
+                name: '台灣地區',
+                states: {
+                    hover: {
+                        color: '#ffbe24'
+                    },
+                },
+                color: '#fff', // 設定區域顏色為白色
+                nullColor: '#4C3D3D', // 設定沒有數據的區域顏色為白色
+                dataLabels: {
+                    enabled: false,
+                    format: '{point.properties.name}'
+                },
+                point: {
+                    events: {
+                        click: function () {
+                            $("#" + this['hc-key'] + "-info").toggleClass("contentHover");
+                        }
+                    }
+                }
+            }]
+        });
+        // 卡牌click
+        $(".placeBox .content").on('click', function () {
+            $(this).toggleClass("contentHover");
+        })
+    </script>
+    <!--whereToEatEnd -->
+    <!-- 漢堡 -->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navBar = document.querySelector(".navBar");
+        const socialMediaBox = document.querySelector(".socialMediaBox");
+
+        hamburger.addEventListener("click", () => {
+            navBar.classList.toggle("active");
+            socialMediaBox.classList.toggle("active");
+            hamburger.classList.toggle("toggle");
+        })
+    </script>
+    <!-- 漢堡 -->
+
+    <!-- newsAreaSlick -->
+    <script>
+        $(document).ready(function () {
+            $('.cardBox').slick({
+                autoplay: true,
+                autoplaySpeed: 3000,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: true,
+                prevArrow: $('#newsArea .arrowBox .arrowPrev'),
+                nextArrow: $('#newsArea .arrowBox .arrowNext'),
+                responsive: [
+                    {
+                        breakpoint: 1000, // RWD在1000寬度時切換顯示數量
+                        settings: {
+                            slidesToShow: 3, //一次顯示3個
+                            slidesToScroll: 1,//切換下一頁時移動3個
+                        }
+                    }, {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    }, {
+                        breakpoint: 560,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <!-- newsAreaSlick -->
+
+    <!-- mealsAreaSlick-->
+    <script>
+        var htmlCollection = document.getElementsByClassName('productItem');
+        var itemsId = Array.from(htmlCollection);
+        var sectionDeg = 360 / itemsId.length;
+        var radianSectionDeg = sectionDeg * Math.PI * 2 / 360;
+        var radiusLength = 330;
+        for (var i = 0; i < itemsId.length; i++) {
+            itemsId[i].style.top = radiusLength * Math.sin(radianSectionDeg * i - 1.5708) - 150 + 'px';
+            itemsId[i].style.left = radiusLength * Math.cos(radianSectionDeg * i - 1.5708) - 150 + 'px';
+        }
+        var rotation = 0;
+        var center = document.getElementById('center');
+
+        function turnLeft() {
+            rotation = rotation + radianSectionDeg;
+            center.style.transform = 'rotate(' + rotation + 'rad)';
+            for (var i = 0; i < itemsId.length; i++) {
+                itemsId[i].style.transform = 'rotate(' + -rotation + 'rad)';
+            }
+        }
+        function turnRight() {
+            rotation = rotation - radianSectionDeg;
+            center.style.transform = 'rotate(' + rotation + 'rad)';
+            for (var i = 0; i < itemsId.length; i++) {
+                itemsId[i].style.transform = 'rotate(' + -rotation + 'rad)';
+            }
+        }
+        function updateRotation() {
+            for (var i = 0; i < itemsId.length; i++) {
+                itemsId[i].style.transform = 'rotate(' + (-rotation) + 'rad)';
+            }
+        }
+        document.querySelector(".left").onclick = turnLeft;
+        document.querySelector(".right").onclick = turnRight;
+    </script>
+    <!--mealsAreaSlick -->
+</body>
+
+</html>
